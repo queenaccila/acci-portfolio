@@ -1,0 +1,16 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 300px;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.featureSvg:hover {
+  transform: scale(1.5);
+}
