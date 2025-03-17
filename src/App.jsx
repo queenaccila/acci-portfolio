@@ -24,7 +24,7 @@ function App() {
   
         {/* Standard mode */}
         <div className="column-item-standard">
-          <a href="https://game.accila.com/" target="_blank">
+          <a href="https://dev.accila.com/" target="_blank">
             <h2>Standard Mode</h2>
             <img src={reactLogo} className="column-image" />
             <p>
