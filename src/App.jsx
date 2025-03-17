@@ -28,7 +28,7 @@ function App() {
             <h2>Standard Mode</h2>
             <img src={reactLogo} className="column-image" />
             <p>
-              A traditional website layout for quick access to information and easy reading. Recommended for those seeking a more streamlined experience.
+              A traditional website layout for quick access to information and easy reading. Recommended for more streamlined experience.
             </p>
           </a>
         </div>
