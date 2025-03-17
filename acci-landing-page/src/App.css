@@ -18,25 +18,52 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
-  color: #888;
+  color: #b64848;
+}
+
+p {
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row; /* Stacks items horizontally */
+  gap: 40px; /* Adds spacing between items */
+  align-items: center; /* Centers items */
+}
+
+@media (max-width: 768px) {
+  .column-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.column-item {
+  padding: 20px;
+  border: 2px solid #ffffff;
+  width: 500px; /* Controls column width */
+  text-align: center;
+}
+
+.column-image {
+  height: 10em;
+  padding-top: 20px;
+  will-change: transform;
+  transition: all .2s ease-in-out;
+  align-items: center;
+}
+
+.column-image:hover {
+  transform: scale(1.4);
 }
