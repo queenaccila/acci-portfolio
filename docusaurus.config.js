@@ -89,8 +89,8 @@ const config = {
             label: 'Game Development',
           },
 
-          {to: '/docs/category/tech-art', label: 'Technical Art', position: 'left'},
-          {to: '/docs/category/tech-write', label: 'Technical Writing', position: 'left'},
+          {to: '/docs/category/technical-art', label: 'Technical Art', position: 'left'},
+          {to: '/docs/category/technical-writing', label: 'Technical Writing', position: 'left'},
           {
             href: 'https://github.com/queenaccila',
             label: 'GitHub',
