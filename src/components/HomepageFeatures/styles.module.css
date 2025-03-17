@@ -6,6 +6,11 @@
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.featuresSvg:hover {
+  transform: scale(1.5);
 }
