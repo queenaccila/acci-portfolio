@@ -4,8 +4,5 @@
   "link": {
     "type": "generated-index",
     "description": "All of my graphics programming work! Check this out if you want to see my work on graphics and shaders."
-  },
-  "customProps": {
-    "image": "/img/docusaurus.png"
   }
 }
