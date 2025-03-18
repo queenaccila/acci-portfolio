@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Acci Portfolio',
   tagline: 'Check out my cool work!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/acci-logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -79,7 +79,7 @@ const config = {
         title: 'Acci',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/acci-logo.png',
         },
         items: [
           {
@@ -105,8 +105,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Game Development',
+                to: '/docs/category/game-development',
+              },
+              {
+                label: 'Technical Art',
+                to: '/docs/category/technical-art',
+              },
+              {
+                label: 'Technical Writing',
+                to: '/docs/category/technical-writing',
               },
             ],
           },
