@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Testing Page!
+# Testing Page
 
 Here is a general test page

@@ -1,3 +1,6 @@
-# Testing Page 2!
+---
+sidebar_position: 2
+---
 
-Electric bungaloo
+# Testing Page 2
+
